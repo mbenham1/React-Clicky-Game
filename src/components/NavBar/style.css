@@ -25,3 +25,10 @@ nav  li {
 .message {
     font-size: 22px;
 }
+
+@media only screen and (max-width: 1150px) {
+    nav li {
+        width: 100%;
+        display: block;
+    }
+  }
