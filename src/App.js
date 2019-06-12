@@ -38,6 +38,7 @@ clickedOrNot = (id) => {
         lose = false;
         if (count > highScore) {
           highScore = count;
+          message = "New High Score!  Keep at it!";
         }
       } 
     }
